@@ -4,6 +4,10 @@
             width: 100%;
             margin: 20px 0;
         }
+        .center {
+        margin-left: auto;
+        margin-right: auto;
+        }
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -18,5 +22,46 @@
         }
         tr:hover {
             background-color: #e2e2e2;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+ 
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+        }
+ 
+        h1 {
+            margin: 0;
+        }
+ 
+        section {
+            padding: 2rem;
+        }
+ 
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+ 
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            text-decoration: underline;
         }
 </style>
