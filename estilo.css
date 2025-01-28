@@ -18,10 +18,10 @@
             font-weight: bold;
         }
         tr:nth-child(even) {
-            background-color: #f9f9f9;
+            background-color: #D6EEEE;
         }
         tr:hover {
-            background-color: #e2e2e2;
+            background-color: #e00707;
         }
 
         body {
@@ -34,17 +34,19 @@
         }
  
         header {
-            background-color: #007bff;
-            color: white;
+            background-color: #07e00a;
+            color: black;
             padding: 1rem;
         }
  
         h1 {
             margin: 0;
+            font-family: courier;
         }
  
         section {
             padding: 2rem;
+          font-family: verdana;
         }
  
         footer {
@@ -54,6 +56,7 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+          font-family: "Times New Roman";
         }
  
         a {
